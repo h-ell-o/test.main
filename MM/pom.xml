@@ -13,6 +13,7 @@
 
 	<scm>
 		<connection>scm:git:git@github.com/h-ell-o/test.main.git</connection>
+		<developerConnection>scm:git:git@github.com/h-ell-o/test.main.git</developerConnection>
 		<tag>MM-1.1</tag>
 	</scm>
 
