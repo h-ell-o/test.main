@@ -1,0 +1,18 @@
+### NG42 .gitignore template Version 1.0 ###
+
+### IntelliJ
+**/.idea/libraries/
+**/.idea/dictionaries/
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/gradle.xml
+*.iws
+
+### Web Projects
+# /wordpress/ hides the wordpress symlink we use to locally run Wordpress on developer machines
+**/wordpress/
+
+### Local Builds
+target/
+
+### Other files

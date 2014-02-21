@@ -1,9 +1,14 @@
 /**
  * Created with IntelliJ IDEA.
  * User: hellersdorfer
- * Date: 18.07.12
- * Time: 11:44
+ * Date: 21.02.14
+ * Time: 10:17
  * To change this template use File | Settings | File Templates.
  */
-public class Test1 {
+public class T1
+{
+	public void test()
+	{
+		int x = 1;
+	}
 }
