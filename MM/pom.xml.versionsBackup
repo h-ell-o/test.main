@@ -4,19 +4,14 @@
 
 	<groupId>test.he</groupId>
 	<artifactId>MM</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<modules>
 		<module>M1</module>
 	</modules>
 
 	<!-- specify 'pom' in case you want to add submodules; otherwise, specify 'jar' or delete line -->
 	<packaging>pom</packaging>
-
-	<scm>
-		<connection>scm:git:git@github.com/h-ell-o/test.main.git</connection>
-		<tag>HEAD</tag>
-	</scm>
-
+	 
 	<!-- version property for specifying ng42 references -->
 	<properties>
 		<global.version>LATEST</global.version>
@@ -44,13 +39,7 @@
 					<artifactId>versions-maven-plugin</artifactId>
 					<version>2.0</version>
 				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-release-plugin</artifactId>
-					<version>2.4.2</version>
-				</plugin>
 			</plugins>
-
 		</pluginManagement>
 
 		<plugins>
@@ -69,12 +58,6 @@
 				<artifactId>versions-maven-plugin</artifactId>
 				<version>2.0</version>
 			</plugin>
-
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-release-plugin</artifactId>
-					<version>2.4.2</version>
-				</plugin>
 		</plugins>
 	</build>
 
